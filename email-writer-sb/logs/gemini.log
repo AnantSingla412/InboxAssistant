@@ -1,0 +1,215 @@
+2025-07-27 04:07:57 INFO  c.e.writer.app.EmailGeneratorService - Received email request: EmailRequest(emailContent=Hello,thank you for reaching out to us, tone=friendly)
+2025-07-27 04:07:57 DEBUG c.e.writer.app.EmailGeneratorService - Generated prompt: Generate an email with the following content. Please don't generate a request line. Use a friendly tone.
+Original email:
+Hello,thank you for reaching out to us
+2025-07-27 04:07:57 DEBUG c.e.writer.app.EmailGeneratorService - Request body prepared: {contents=[{parts=[{text=Generate an email with the following content. Please don't generate a request line. Use a friendly tone.
+Original email:
+Hello,thank you for reaching out to us}]}]}
+2025-07-27 04:08:01 INFO  c.e.writer.app.EmailGeneratorService - Received raw response from Gemini: {
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "Subject: Reaching Out - Just a quick thank you!\n\nHi there,\n\nJust wanted to send a quick email to say thank you for reaching out to us! We appreciate you getting in touch.\n\nHope you're having a great day!\n\nBest,\n\nThe [Your Company Name] Team\n"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "avgLogprobs": -0.17553743239372008
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 36,
+    "candidatesTokenCount": 62,
+    "totalTokenCount": 98,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 36
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 62
+      }
+    ]
+  },
+  "modelVersion": "gemini-2.0-flash",
+  "responseId": "zFiFaI78PP6cnvgPtKmf0AQ"
+}
+
+2025-07-27 04:08:51 INFO  c.e.writer.app.EmailGeneratorService - Received email request: EmailRequest(emailContent=Hello, share the ppt by tonight, tone=friendly)
+2025-07-27 04:08:51 DEBUG c.e.writer.app.EmailGeneratorService - Generated prompt: Generate an email with the following content. Please don't generate a request line. Use a friendly tone.
+Original email:
+Hello, share the ppt by tonight
+2025-07-27 04:08:51 DEBUG c.e.writer.app.EmailGeneratorService - Request body prepared: {contents=[{parts=[{text=Generate an email with the following content. Please don't generate a request line. Use a friendly tone.
+Original email:
+Hello, share the ppt by tonight}]}]}
+2025-07-27 04:08:52 INFO  c.e.writer.app.EmailGeneratorService - Received raw response from Gemini: {
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "Subject: PPT - Just a friendly reminder!\n\nHey!\n\nJust a friendly reminder about the PPT. Could you please share it by tonight?\n\nThanks a bunch!\n"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "avgLogprobs": -0.23594300406319754
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 34,
+    "candidatesTokenCount": 35,
+    "totalTokenCount": 69,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 34
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 35
+      }
+    ]
+  },
+  "modelVersion": "gemini-2.0-flash",
+  "responseId": "AFmFaP7sAcGX2PgP6e3JiQE"
+}
+
+2025-07-27 04:09:07 INFO  c.e.writer.app.EmailGeneratorService - Received email request: EmailRequest(emailContent=Hello, share the ppt by tonight, tone=angry)
+2025-07-27 04:09:07 DEBUG c.e.writer.app.EmailGeneratorService - Generated prompt: Generate an email with the following content. Please don't generate a request line. Use a angry tone.
+Original email:
+Hello, share the ppt by tonight
+2025-07-27 04:09:07 DEBUG c.e.writer.app.EmailGeneratorService - Request body prepared: {contents=[{parts=[{text=Generate an email with the following content. Please don't generate a request line. Use a angry tone.
+Original email:
+Hello, share the ppt by tonight}]}]}
+2025-07-27 04:09:09 INFO  c.e.writer.app.EmailGeneratorService - Received raw response from Gemini: {
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "Subject: WHERE IS THE PPT?!\n\nListen, I need that presentation. You said you'd have it ready. **TONIGHT. BY TONIGHT.** I don't care what you have to do, get it to me. I'm not asking nicely. I expect it in my inbox before the day is over. Don't even think about sending it late.\n"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "avgLogprobs": -0.30178365951929337
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 34,
+    "candidatesTokenCount": 78,
+    "totalTokenCount": 112,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 34
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 78
+      }
+    ]
+  },
+  "modelVersion": "gemini-2.0-flash",
+  "responseId": "EFmFaKzTL6ig7dcPrfWx0AI"
+}
+
+2025-07-27 14:44:59 INFO  c.e.writer.app.EmailGeneratorService - Received email request: EmailRequest(emailContent=Hello, share the ppt by tonight, tone=angry)
+2025-07-27 14:44:59 DEBUG c.e.writer.app.EmailGeneratorService - Generated prompt: Generate an email with the following content. Please don't generate a request line. Use a angry tone.
+Original email:
+Hello, share the ppt by tonight
+2025-07-27 14:44:59 DEBUG c.e.writer.app.EmailGeneratorService - Request body prepared: {contents=[{parts=[{text=Generate an email with the following content. Please don't generate a request line. Use a angry tone.
+Original email:
+Hello, share the ppt by tonight}]}]}
+2025-07-27 14:45:03 INFO  c.e.writer.app.EmailGeneratorService - Received raw response from Gemini: {
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "Subject: WHERE IS THE PPT?!\n\nListen, I need that presentation. I said TONIGHT. Don't make me ask again. Get it to me NOW.\n\nThis is completely unacceptable. I expect to see it in my inbox immediately. Consider this your final warning.\n"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "avgLogprobs": -0.40089868244371918
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 34,
+    "candidatesTokenCount": 57,
+    "totalTokenCount": 91,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 34
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 57
+      }
+    ]
+  },
+  "modelVersion": "gemini-2.0-flash",
+  "responseId": "G-6FaNOGEdm2mNAPzLWGkAw"
+}
+
+2025-07-27 14:47:28 INFO  c.e.writer.app.EmailGeneratorService - Received email request: EmailRequest(emailContent=hello, how are you can we meet today, tone=friendly)
+2025-07-27 14:47:28 DEBUG c.e.writer.app.EmailGeneratorService - Generated prompt: Generate an email with the following content. Please don't generate a request line. Use a friendly tone.
+Original email:
+hello, how are you can we meet today
+2025-07-27 14:47:28 DEBUG c.e.writer.app.EmailGeneratorService - Request body prepared: {contents=[{parts=[{text=Generate an email with the following content. Please don't generate a request line. Use a friendly tone.
+Original email:
+hello, how are you can we meet today}]}]}
+2025-07-27 14:47:32 INFO  c.e.writer.app.EmailGeneratorService - Received raw response from Gemini: {
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "Subject: Catching Up Today?\n\nHey!\n\nHow are you doing?\n\nI was wondering if you might be free to meet up sometime today. Let me know if that works for you and what time/place would be good.\n\nHope to hear from you!\n"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "avgLogprobs": -0.16141646248953684
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 36,
+    "candidatesTokenCount": 56,
+    "totalTokenCount": 92,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 36
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 56
+      }
+    ]
+  },
+  "modelVersion": "gemini-2.0-flash",
+  "responseId": "sO6FaNmiA_2gm9IPidTS6QM"
+}
+
